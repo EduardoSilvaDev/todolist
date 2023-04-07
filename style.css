@@ -57,6 +57,7 @@ input
 #apagar
 {
     color: red;
+    cursor: pointer;
 }
 
 .list
