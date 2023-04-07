@@ -19,6 +19,10 @@
         margin-top: 10px;
         width: 100%;
     }
+    #submit:hover
+    {
+        background-color: #EFEFEF;
+    }
     #apagar
     {
         position: absolute;
