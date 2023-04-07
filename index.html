@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-header">
+        <h1>To Do List</h1>
+
+        <div class="form">
+            <input type="text" name="text" id="text" placeholder="Digite aqui..." autocomplete="off">
+            <input type="submit" name="submit" id="submit" value="Adicionar" onclick="adicionar()">
+            <input type="submit" id="apagar" value="X" onclick="apagar()">
+        </div>
+    </div>
+    <ul class="list" id="MyList">
+        <!-- <li class="list-item">
+            
+            <input type="checkbox" id="check">
+            <p class="description">Item1</p>
+            <div class="actions">
+                <button id="editar" onclick="editar(this)">Editar</button>
+                <button id="excluir" onclick="excluir(this)">Excluir</button>
+            </div>
+        </li> -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
