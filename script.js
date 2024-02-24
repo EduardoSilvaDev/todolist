@@ -1,5 +1,4 @@
-function adicionar() 
-{
+function adicionar() {
     var novoItem = document.getElementById("text").value;
 
     if (novoItem !== "") {
